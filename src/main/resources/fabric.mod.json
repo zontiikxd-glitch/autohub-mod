@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "autohub",
+  "version": "1.0.0",
+  "name": "Auto Hub Mod",
+  "description": "Auto hub when player is nearby",
+  "authors": ["zontiiik"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.autohub.AutoHubMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.5",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
